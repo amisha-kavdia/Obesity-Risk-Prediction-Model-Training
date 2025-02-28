@@ -1,3 +1,17 @@
+**Problem Statement**
+
+Obesity is a growing global health issue, leading to chronic diseases like diabetes, heart disease, and hypertension.
+Early detection of obesity risk based on eating habits, lifestyle choices, and physical activity can help in prevention.
+The goal is to predict obesity levels based on an individual’s dietary habits, physical activity, and general health parameters.
+
+
+**Objectives and Goals**
+
+- It can be integrated into fitness and health tracking apps for obesity risk prediction.
+- It can help people in early intervention by suggesting personalized diet and exercise recommendations.
+- It can also support research on lifestyle diseases and obesity trends in different populations.
+
+
 **Overview** 
 
 This project focuses on predicting obesity levels based on various eating habits and physical attributes. 
