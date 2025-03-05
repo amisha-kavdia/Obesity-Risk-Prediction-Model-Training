@@ -24,7 +24,7 @@ The final Random Forest model achieves an impressive accuracy of **91%**.
 
 - **Data Processing**: Handled missing values, removed duplicates, and performed feature selection to enhance model performance.
 - **EDA & Feature Engineering**: Explored correlations between features, visualized distributions, applied transformations such as encoding and scaling.
-- **Handling Class Imbalance**:Synthetic Minority Over-sampling Technique was applied to generate synthetic samples for minority class.
+- **Handling Class Imbalance**: Synthetic Minority Over-sampling Technique was applied to generate synthetic samples for minority class.
 - **Model Training & Tuning**: Implemented a Random Forest model and fine-tuned it using GridSearchCV to optimize hyperparameters.
 - **Evaluation Metrics**: Assessed the model using accuracy, precision, recall, and F1-score to ensure reliability and effectiveness.
 
