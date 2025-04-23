@@ -35,6 +35,9 @@ Among all the classification models, the final Random Forest model achieves an i
 - Gained valuable insights into the impact of lifestyle choices on obesity levels.
 - Improved model generalization through hyperparameter tuning and performance optimization.
 
-This project serves as a comprehensive case study on applying machine learning techniques to healthcare-related classification problems and 
-demonstrating the importance of data-driven insights in healthcare applications.
+This project is built using
+- Streamlit for interactive UI
+- Pandas, Numpy, Joblib and Matplotlib/Seaborn for data handling and visualization
+- Scikit-learn for ML modeling and
+serves as a comprehensive case study on applying machine learning techniques to healthcare-related classification problems and demonstrating the importance of data-driven insights in healthcare applications.
 
