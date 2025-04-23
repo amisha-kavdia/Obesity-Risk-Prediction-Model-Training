@@ -4,11 +4,9 @@ import joblib
 
 # Load the trained model
 model = joblib.load("obesity_levels.pkl")
-
 st.title("Obesity Level Predictor")
 st.markdown("Predict your obesity level based on lifestyle and body metrics.")
-
-st.header("📝 Enter Your Information")
+st.header("📝 Enter Your Information...")
 
 # Collect inputs
 age = st.number_input("Age", 1, 100, step=1)
@@ -18,17 +16,18 @@ weight = st.number_input("Weight (in kg)", format="%.2f")
 
 bmi = weight / (height ** 2) if height > 0 else 0  # Calculate BMI
 
+
 activity_index = st.slider("Physical Activity Index (1 = low, 5 = high)", 1, 5)
-physical_activity = st.slider("Hours of Physical Activity per Week", 0, 20)
-technology_usage = st.slider("Daily Tech Use (hours)", 0, 16)
+physical_activity = st.slider("Hours of Physical Activity per Week", 0, 4)
+technology_usage = st.slider("Daily Tech Use (hours)", 0, 4)
 overweight_family_history = st.selectbox("Overweight in Family History?", ["Yes", "No"])
 food_btw_meals = st.selectbox("Food Between Meals", ["No", "Sometimes", "Frequently", "Always"])
 alcohol = st.selectbox("Alcohol Consumption", ["Never", "Sometimes", "Frequently"])
 eat_veggies = st.selectbox("Do you eat vegetables daily?", ["Yes", "No"])
-main_meals_count = st.slider("Number of Main Meals Per Day", 1, 5)
+main_meals_count = st.slider("Number of Main Meals Per Day", 1, 4)
 transportation = st.selectbox("Transportation Mode", ["Walking", "Bike", "Public", "Car"])
 healthy_eating = st.selectbox("Do you follow healthy eating habits?", ["Yes", "No"])
-water_glass = st.slider("Glasses of Water per Day", 0, 20)
+water_glass = st.slider("Glasses of Water per Day", 0, 7)
 monitoring_calories = st.selectbox("Do you monitor calorie intake?", ["Yes", "No"])
 smoke = st.selectbox("Do you smoke?", ["Yes", "No"])
 
